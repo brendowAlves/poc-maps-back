@@ -1,0 +1,21 @@
+{
+    "name": "poc-maps-back",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon --config nodemon.json"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "knex": "^0.21.5",
+        "knex-postgis": "^0.12.0",
+        "nodemon": "^2.0.4",
+        "pg": "^8.3.3"
+    }
+}
